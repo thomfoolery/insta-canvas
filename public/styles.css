@@ -1,0 +1,15 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#canvas {
+  display: block;
+  margin: 5vmin;
+  max-width: 90vmin;
+  max-height: 90vmin;
+}
