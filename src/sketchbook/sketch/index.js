@@ -1,3 +1,8 @@
+import Random from "../../utils/random";
+
+const R = new Random(12345);
+const random = R.random.bind(R);
+
 const $ = document.querySelector.bind(document);
 const $canvas = $("#canvas");
 const ctx = $canvas.getContext("2d");
@@ -11,3 +16,8 @@ export function render() {
 
   step();
 }
+
+export const meta = {
+  title: "Sketch",
+  description: "",
+};

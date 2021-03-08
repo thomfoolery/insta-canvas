@@ -64,3 +64,8 @@ function burst(x, y, radius, fillStyle, iterationTurn, count) {
 export function render() {
   step();
 }
+
+export const meta = {
+  title: "Flower power",
+  description: "",
+};

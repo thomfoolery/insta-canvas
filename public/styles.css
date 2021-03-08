@@ -9,7 +9,30 @@ body {
 
 #canvas {
   display: block;
-  margin: 5vmin;
+  margin: 5vmin 5vmin 0;
   max-width: 90vmin;
   max-height: 90vmin;
+}
+
+figure {
+  margin: 0;
+}
+
+#canvas + figcaption {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 5vmin;
+  line-height: 5vmin;
+}
+
+#canvas + figcaption h1,
+#canvas + figcaption p {
+  display: inline-block;
+  margin: 0 1em;
+  font-size: 2vmin;
+  line-height: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }

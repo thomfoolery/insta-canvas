@@ -44,3 +44,8 @@ export function render() {
   step(canvasCenter, canvasCenter, radius * 0.4, "rgba(0,0,0,0.2)", 1 / 8, 8);
   step(canvasCenter, canvasCenter, radius * 0.2, "rgba(255,0,0,0.2)", 1 / 5, 5);
 }
+
+export const meta = {
+  title: "Rose",
+  description: "",
+};
